@@ -1,0 +1,49 @@
+<mvc:View controllerName="com.exercise.exportexcel1.controller.View1"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Table id="idTable" items="{/Products}">
+							<headerToolbar>
+								<OverflowToolbar>
+									<content>
+										<Title text="Products" level="H2"/>
+										<ToolbarSpacer />
+										<Button text="Excel Download" press="handleProductDownload"></Button>
+									</content>
+								</OverflowToolbar>
+							</headerToolbar>
+							<columns>
+								<Column>
+									<Text text="ProductID"></Text>
+								</Column>
+								<Column>
+									<Text text="ProductName"></Text>
+								</Column>
+								<Column>
+									<Text text="SupplierID"></Text>
+								</Column>
+								<Column>
+									<Text text="CategoryID"></Text>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{ProductID}"></Text>
+										<Text text="{ProductName}"></Text>
+										<Text text="{SupplierID}"></Text>
+										<Text text="{CategoryID}"></Text>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
