@@ -8,16 +8,15 @@
 | **Generation Platform**<br>Visual Studio Code                                                      |
 | **Floorplan Used**<br>simple                                                                       |
 | **Service Type**<br>OData Url                                                                      |
-
-|**Service URL**<br>https://services.odata.org/V2/Northwind/Northwind.svc
-|**Module Name**<br>exportexcel1|
-|**Application Title**<br>Export Excel|
-|**Namespace**<br>com.exercise|
-|**UI5 Theme**<br>sap_fiori_3|
-|**UI5 Version**<br>Latest|
-|**Enable Code Assist Libraries**<br>False|
-|**Add Eslint configuration**<br>False|
-|**Enable Telemetry**<br>True|
+| **Service URL**<br>https://services.odata.org/V2/Northwind/Northwind.svc                           |
+| **Module Name**<br>exportexcel1                                                                    |
+| **Application Title**<br>Export Excel                                                              |
+| **Namespace**<br>com.exercise                                                                      |
+| **UI5 Theme**<br>sap_fiori_3                                                                       |
+| **UI5 Version**<br>Latest                                                                          |
+| **Enable Code Assist Libraries**<br>False                                                          |
+| **Add Eslint configuration**<br>False                                                              |
+| **Enable Telemetry**<br>True                                                                       |
 
 ## Export to Excel
 
